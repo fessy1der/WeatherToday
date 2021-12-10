@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		575EB8D927631A8E00BC4DAB /* WeatherRowUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575EB8D827631A8E00BC4DAB /* WeatherRowUIView.swift */; };
 		5785752B275D614A00FF2ECC /* WeatherTodayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5785752A275D614A00FF2ECC /* WeatherTodayApp.swift */; };
 		5785752D275D614A00FF2ECC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5785752C275D614A00FF2ECC /* ContentView.swift */; };
 		5785752F275D614A00FF2ECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5785752E275D614A00FF2ECC /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		575EB8D827631A8E00BC4DAB /* WeatherRowUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRowUIView.swift; sourceTree = "<group>"; };
 		57857527275D614A00FF2ECC /* WeatherToday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherToday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5785752A275D614A00FF2ECC /* WeatherTodayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTodayApp.swift; sourceTree = "<group>"; };
 		5785752C275D614A00FF2ECC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +50,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		575EB8D727631A5700BC4DAB /* Compoonents */ = {
+			isa = PBXGroup;
+			children = (
+				575EB8D827631A8E00BC4DAB /* WeatherRowUIView.swift */,
+			);
+			path = Compoonents;
+			sourceTree = "<group>";
+		};
 		5785751E275D614A00FF2ECC = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +77,7 @@
 		57857529275D614A00FF2ECC /* WeatherToday */ = {
 			isa = PBXGroup;
 			children = (
+				575EB8D727631A5700BC4DAB /* Compoonents */,
 				5785753B275D642000FF2ECC /* Views */,
 				57857538275D624E00FF2ECC /* Managers */,
 				5785752A275D614A00FF2ECC /* WeatherTodayApp.swift */,
@@ -186,6 +197,7 @@
 				57857543275E39C500FF2ECC /* WeatherUIView.swift in Sources */,
 				57857545275E3A3300FF2ECC /* ModelData.swift in Sources */,
 				5785753D275D64AB00FF2ECC /* WelcomeUIView.swift in Sources */,
+				575EB8D927631A8E00BC4DAB /* WeatherRowUIView.swift in Sources */,
 				5785753F275D691000FF2ECC /* LoadingUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
